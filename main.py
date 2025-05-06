@@ -100,7 +100,4 @@ def run_tests():
         print("-" * 40)
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1 and sys.argv[1] == 'run':
-        max_happiness()
-    else:
-        run_tests()
+    run_tests()
